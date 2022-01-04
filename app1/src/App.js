@@ -1,23 +1,20 @@
 // import logo from './logo.svg';
 import './App.css';
+import Pessoa from './components/Pessoa';
+
 
 function App() {
 
-  const name = "Danilo"
-  const newName = name.toUpperCase(name)
-
-  function soma(a, b){
-    return a + b
-  }
-
-  const url = "https://via.placeholder.com/150"
+const nm1 = "Danilo"
 
   return (
-    <div className="App">
-      <h1>Meu Primeiro App</h1>
-      <p>Bem vindo, {newName}</p>
-      <p>Soma: {soma(2,6)}</p>
-      <img src={url} alt="Minha imagem" />
+    <div className="App">      
+      <Pessoa
+        foto="https://via.placeholder.com/150" 
+        nome="Danilo"
+        idade="30"
+        profissao="Dev Frontend"
+      />
     </div>
   );
 }
