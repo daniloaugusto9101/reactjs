@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 
 
 function App() {
@@ -15,7 +16,11 @@ const nm1 = "Danilo"
         idade="30"
         profissao="Dev Frontend"
       />
+    <Frase />
+    <Frase />
+    <Frase />
     </div>
+    
   );
 }
 

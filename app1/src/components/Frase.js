@@ -1,10 +1,13 @@
+import Styles from './Frase.module.css'
+
 
 function Frase(){
     return(
-        <div>
-            <p>Frase do componente</p>
+        <div className={Styles.FraseContainer}>
+            <p className={Styles.FraseContent}> Frase do componente</p>
         </div>
     )
 }
 
 export default Frase;
+
