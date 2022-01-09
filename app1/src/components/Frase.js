@@ -1,6 +1,5 @@
 import Styles from './Frase.module.css'
 
-
 function Frase(){
     return(
         <div className={Styles.FraseContainer}>

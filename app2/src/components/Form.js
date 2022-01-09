@@ -1,23 +1,18 @@
 function Form(){
 
-    function cadastrarUser(e){
-        e.preventDefault()
-        console.log("Usuario cadastrado")
+    function testeClick(){
+        console.log("Voce clicou")
     }
 
     return(
-        <form onSubmit={cadastrarUser}>
+        <div>
             <div>
-                <p>Digite algo abaixo</p>
+                <p>Clique no botao abaixo</p>
             </div>
             <div>
-                <input type="text" />
+                <button onClick={testeClick}>Clique aqui</button>
             </div>
-            <div>
-                <button type="submit">Enviar</button>
-            </div>
-        </form>
+        </div>
     )
 }
-
 export default Form
