@@ -1,17 +1,18 @@
 // import logo from './logo.svg';
 import './App.css';
 import Evento from './components/Evento';
+import OutraLista from './components/OutraLista'
 
 
 
 function App() {
 
-const nm1 = "Danilo"
+
 
   return (
     <div className="App">      
-      <h1>Testanto eventos</h1>
-      <Evento />
+      <h1>Lista Renderizada</h1>
+
     </div>
     
   );

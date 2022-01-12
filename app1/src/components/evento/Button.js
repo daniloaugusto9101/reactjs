@@ -1,4 +1,4 @@
 function Button(props){
-  return <button onClick={props.event}>Clique aqui</button>
+  return <button onClick={props.eventos}>Clique aqui</button>
 }
 export default Button

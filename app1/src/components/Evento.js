@@ -12,8 +12,8 @@ function Evento(){
 
     return(
         <div>
-            <Button event={primeiroEvento} text="Primeiro evento"/>
-            <Button event={segundoEvento} text="Segundo evento"/>
+            <Button eventos={primeiroEvento} text="Primeiro evento"/>
+            <Button eventos={segundoEvento} text="Segundo evento"/>
         </div>
     )
 }

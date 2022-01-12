@@ -1,5 +1,10 @@
 *{
   margin: 0px;
   padding: 0px;
-  color: rgb(201, 198, 56);
+}
+
+p{
+  background: rgb(83, 77, 77);
+  color: rgb(243, 6, 6);
+  margin-top: 10px;
 }
