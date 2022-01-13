@@ -1,20 +1,26 @@
-// import logo from './logo.svg';
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import NavBar from './components/layout/NavBar'
+import Footer from './components/layout/Footer'
+
+import Contato from './components/pages/Contato'
+import Empresa from './components/pages/Empresa'
+import Home from './components/pages/Home'
+
 import './App.css';
-import Evento from './components/Evento';
-import OutraLista from './components/OutraLista'
 
 
 
 function App() {
-
-
-
   return (
-    <div className="App">      
-      <h1>Lista Renderizada</h1>
-
-    </div>
-    
+    <Router>
+      <NavBar/>
+      <Routes>
+        <Route  exact patch="/" element={<Home />} />
+        <Route  patch="/contato" element={<Contato />} />
+        <Route  patch="/contato" element={<Empresa />} />
+      </Routes>
+      <Footer/>
+    </Router> 
   );
 }
 
