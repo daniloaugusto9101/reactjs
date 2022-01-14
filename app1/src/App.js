@@ -1,26 +1,21 @@
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
-import NavBar from './components/layout/NavBar'
-import Footer from './components/layout/Footer'
-
-import Contato from './components/pages/Contato'
-import Empresa from './components/pages/Empresa'
-import Home from './components/pages/Home'
-
 import './App.css';
+import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 
-
+import Home from './components/pages/Home'
+import Contato from './components/pages/Contato'
+import Sobre from './components/pages/Sobre'
+import Navbar from './components/layout/Navbar';
 
 function App() {
   return (
-    <Router>
-      <NavBar/>
+    <BrowserRouter>
+      <Navbar/>
       <Routes>
-        <Route  exact patch="/" element={<Home />} />
-        <Route  patch="/contato" element={<Contato />} />
-        <Route  patch="/contato" element={<Empresa />} />
-      </Routes>
-      <Footer/>
-    </Router> 
+        <Route path="/" element={<Home/>}/>
+        <Route path="/contato" element={<Contato/>}/>
+        <Route path="/sobre" element={<Sobre/>}/>
+      </Routes>    
+    </BrowserRouter>
   );
 }
 
