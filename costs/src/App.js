@@ -4,6 +4,7 @@ import Home from './components/pages/Home'
 import Contact from './components/pages/Contact'
 import Company from './components/pages/Company'
 import NewProjetc from './components/pages/NewProject'
+import Footer from './components/layout/Footer'
 
 import Container from './components/layout/Container'
 import NavBar from './components/layout/NavBar'
@@ -21,7 +22,7 @@ function App() {
           <Route exact path="/newproject" element={<NewProjetc />} />
         </Routes>
       </Container>
-      <p>Footer</p>
+      <Footer />
     </BrowserRouter>
   );
 }
