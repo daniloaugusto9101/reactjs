@@ -28,6 +28,12 @@
 <!--te-->
 
 
+# Features
+
+- [x] Cadastro de usuário
+- [x] Cadastro de cliente
+- [ ] Cadastro de produtos
+
 Features
 Demonstração da Aplicação
 Pré-requisitos e como rodar a aplicação/testes
