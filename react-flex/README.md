@@ -76,7 +76,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Feito com ❤️ por Thiago Marinho 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/tgmarinho/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/daniloaugusto910) 
 [![Gmail Badge](https://img.shields.io/badge/-danilloagt@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:danilloagt@gmail.com)](mailto:danilloagt@gmail.com)
 
 
