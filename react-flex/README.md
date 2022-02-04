@@ -66,13 +66,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [TypeScript](https://www.typescriptlang.org/)
 
 
-### Autor
----
+# Autor
 
-<a href="https://blog.rocketseat.com.br/author/thiago/">
- <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/380327?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt=""/>
+<a href="https://www.linkedin.com/in/daniloaugusto9101">
+ <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4D03AQGDStZVq-uy4A/profile-displayphoto-shrink_800_800/0/1641510027050?e=1649289600&v=beta&t=ocSvy7kvPsESi7uuvdsEGFzF6ZZXjjHXNY-Z4bAJ8sI" width="100px;" alt=""/>
  <br />
- <sub><b>Thiago Marinho</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago//" title="Rocketseat">🚀</a>
+ <sub><b>Danilo Augusto</b></sub></a> <a href="https://www.linkedin.com/in/daniloaugusto9101" title="Danilo">🚀</a>
 
 
 Feito com ❤️ por Thiago Marinho 👋🏽 Entre em contato!
