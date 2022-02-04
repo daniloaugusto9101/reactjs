@@ -34,6 +34,13 @@
 - [x] Cadastro de cliente
 - [ ] Cadastro de produtos
 
+# Exemplo do site em funcionamento
+<div>
+<img src="https://media.giphy.com/media/Hz9a8TDV824GQ/giphy.gif" width="150px">
+</div>
+
+
+
 Features
 Demonstração da Aplicação
 Pré-requisitos e como rodar a aplicação/testes
