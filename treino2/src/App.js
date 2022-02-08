@@ -1,11 +1,13 @@
 import './App.css';
-import Lista from './components/pages/Lista';
+import Evento from './components/pages/Evento';
 
 function App() {
 
+
+
   return (
     <div className="App">
-      <Lista />
+      <Evento />
     </div>
   );
 }
