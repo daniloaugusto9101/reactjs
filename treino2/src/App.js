@@ -1,6 +1,8 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route, link, Link } from 'react-router-dom';
 
 import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import Container from './components/layout/Container';
 
 import Home from './components/pages/Home';
 import Sobre from './components/pages/Sobre';
@@ -12,12 +14,15 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/sobre" element={<Sobre />}/>
-        <Route path="/contato" element={<Contato />}/>
-        <Route path="/novoprojeto" element={<Novoprojeto />}/>
-      </Routes>
+      <Container customClass="min-height">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sobre" element={<Sobre />} />
+          <Route path="/contato" element={<Contato />} />
+          <Route path="/novoprojeto" element={<Novoprojeto />} />
+        </Routes>
+      </Container>
+      <Footer />
     </BrowserRouter>
   );
 }
