@@ -1,0 +1,11 @@
+.container{
+    width: 1220px;
+    background-color: rgb(252, 156, 140);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.min-height{
+    min-height: 75%;;
+}
