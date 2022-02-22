@@ -12,7 +12,7 @@ function NovoProjeto() {
         project.cost = 0;
         project.services = [];
 
-        fetch("http://localhost:5000/projetos", {
+        fetch('http://localhost:5000/projetos', {
             method: "POST",
             headers: {
                 "Content-type": "aplication/json",
