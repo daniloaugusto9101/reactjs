@@ -1,26 +1,27 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from './componentes/paginas/Home';
 import Sobre from './componentes/paginas/Sobre';
 import Contato from './componentes/paginas/Contato';
+import Container from './componentes/layouts/Container';
+
+import Header from './componentes/layouts/Header';
+import Footer from './componentes/layouts/Footer';
 
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
-      <nav>
-        <div><Link to="/">Home</Link></div>
-        <div><Link to="/sobre">Sobre</Link></div>
-        <div><Link to="/contato">Contato</Link></div>
-      </nav>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/sobre" element={<Sobre />}/>
-        <Route path="/contato" element={<Contato />}/>
-      </Routes>
+      <Container>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sobre" element={<Sobre />} />
+          <Route path="/contato" element={<Contato />} />
+        </Routes>
+      </Container>
       <Footer />
     </BrowserRouter>
   );

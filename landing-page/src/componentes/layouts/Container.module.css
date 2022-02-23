@@ -1,0 +1,11 @@
+.container{
+    border: 1px solid black;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: .5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
