@@ -16,12 +16,7 @@ Landing Page
    * [Features](#Features)
    * [Exemplo do site](#Exemplo-do-site)
    * [Pré-requisitos](#instalacao)
-   * [Tecnologias](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
+   * [Tecnologias](#Tecnologias-Utilizadas)
    * [Autor](#autor)
 
 <!--te-->
