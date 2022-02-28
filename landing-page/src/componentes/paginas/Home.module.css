@@ -1,0 +1,26 @@
+
+
+.sPrincipal{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.sPrincipal div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sPrincipal h1{
+    font-family: 'Sarala';
+    font-size: 40px;
+}
+
+.sPrincipal img{
+    width: 30%;
+    display: block;
+}

@@ -9,3 +9,7 @@
     flex-wrap: wrap;
     box-sizing: border-box;
 }
+
+.min-height{
+    min-height: 200px;
+}

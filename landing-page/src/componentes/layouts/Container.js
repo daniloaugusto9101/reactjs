@@ -2,9 +2,9 @@ import styles from './Container.module.css'
 
 function Container(props){
     return(
-        <main className={styles.container}>
+        <div className={`${styles.container} ${styles[props.nClas]} `}>
             {props.children}
-        </main>
+        </div>
     )
 }
 export default Container
