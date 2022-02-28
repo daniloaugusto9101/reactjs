@@ -1,7 +1,3 @@
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/91206356/152497618-6c1f025d-6d86-4fd0-a8c4-8b2e9dfa21db.jpg" width="150px">
-</div>
 <p align="center">
  Projeto de Landing Page usando React com base do layout feito por Rafaella Ballerini
 </p>
@@ -35,7 +31,7 @@ Landing Page
 
 # Exemplo do site em funcionamento
 <div>
-<img src="https://media.giphy.com/media/Hz9a8TDV824GQ/giphy.gif" width="150px">
+<img src="./src/imglogoFooter.svg" width="150px">
 
 </div>
 
