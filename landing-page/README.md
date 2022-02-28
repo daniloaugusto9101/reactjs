@@ -64,7 +64,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://www.linkedin.com/in/daniloaugusto9101">
  <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4D03AQGDStZVq-uy4A/profile-displayphoto-shrink_800_800/0/1641510027050?e=1649289600&v=beta&t=ocSvy7kvPsESi7uuvdsEGFzF6ZZXjjHXNY-Z4bAJ8sI" width="100px;" alt=""/>
  <br />
- <sub><b>Danilo Augusto</b></sub></a> <a href="https://www.linkedin.com/in/daniloaugusto9101" title="Danilo">🚀</a>
+ <sub><b>Danilo Augusto</b></sub></a> <a href="https://www.linkedin.com/in/daniloaugusto9101" title="Danilo" target="_blanck">🚀</a>
 
 
 Feito com ❤️ por Danilo Augusto 👋🏽 Entre em contato!
