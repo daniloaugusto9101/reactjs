@@ -14,8 +14,8 @@ Landing Page
 
 <!--ts-->
    * [Features](#Features)
-   * [Exemplo do site](#Exemplo-do-site)
-   * [Pré-requisitos](#instalacao)
+   * [Exemplo do site](#Exemplo-do-site-em-funcionamento)
+   * [Pré-requisitos](#Pré-requisitos)
    * [Tecnologias](#Tecnologias-Utilizadas)
    * [Autor](#autor)
 
