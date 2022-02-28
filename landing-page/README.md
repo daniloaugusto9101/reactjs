@@ -13,17 +13,17 @@ Landing Page
 # Tabela de Conteúdos
 
 <!--ts-->
-   * [Sobre](#Sobre)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
+   * [Features](#Features)
+   * [Exemplo do site](#Exemplo-do-site)
+   * [Pré-requisitos](#instalacao)
+   * [Tecnologias](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
       * [Local files](#local-files)
       * [Remote files](#remote-files)
       * [Multiple files](#multiple-files)
       * [Combo](#combo)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)
+   * [Autor](#autor)
+
 <!--te-->
 
 
@@ -46,9 +46,8 @@ Landing Page
 
 # Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[VSCode](https://code.visualstudio.com/) e [React]
 
 # Tecnologias Utilizadas
 
