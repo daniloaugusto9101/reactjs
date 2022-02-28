@@ -16,13 +16,13 @@ function App() {
     <BrowserRouter>
       <Header />
       <main>
-        <Container nClas="min-height">
+        {/* <Container className="min-height"> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/contato" element={<Contato />} />
           </Routes>
-        </Container>
+        {/* </Container> */}
       </main>
       <Footer />
     </BrowserRouter>

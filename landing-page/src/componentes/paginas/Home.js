@@ -1,15 +1,18 @@
 import styles from './Home.module.css';
 
 import ImgHome from '../../img/robo.svg'
+import Button from '../forms/Button';
+import Container from '../layouts/Container';
+
 
 function Home() {
     return (
-        <>
+        <Container className="min-height">
             <section className={styles.sPrincipal}>
                 <div>
                     <h1>Balle Bot</h1>
                     <p>Deixe a sua comunidade segura de um jeito fácil</p>
-                    <button>Me adicione!</button>
+                    <Button />
                 </div>
                 <img src={ImgHome} alt="Imagem da Home" />
             </section>
@@ -19,7 +22,7 @@ function Home() {
                 <p>2. Possui um sistema de banimento automático para links suspeitos que forem enviados na comunidade</p>
                 <p>3. Sistema de avisos e banimento manual, para pessoas administradoras utilizarem</p>
             </section>
-        </>
+        </Container>
     )
 }
 
